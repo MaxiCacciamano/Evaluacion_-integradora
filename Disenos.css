@@ -1,0 +1,987 @@
+header, section, footer{
+    font-family: calibri;
+    font-size: 20px;	
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	background-color: black;
+	height: 100px;
+	margin-top: 5px;
+	border-radius: 20px; 
+}
+#logo1 img{
+	width: 150px;
+	height: 100px;
+    align-self: center;
+    border-radius: 5px;
+	float: left;
+}
+
+#Menu ul,  #btn_control ul{
+	margin:0;
+	padding: 5px;
+    list-style-type: none;
+}
+#btn_control ul li{
+	display: inline
+
+}
+#Menu li a{
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  padding: .6em 1em;
+
+
+}
+#Menu ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+#Menu li{
+	flex: 1 0 auto;
+	text-align: center;
+	padding: auto;
+
+}
+/*#Menu li{
+	display: inline;
+}*/
+  #btn_control ul li a{
+	display: inline-block;
+	color: #ffffff;
+	padding: 10px 6px;
+    font-weight: bold;
+	text-decoration: none;
+}
+#Menu ul li a:hover,  #btn_control ul li a:hover{
+	background-color: #116161;
+	border-radius: 5px;
+}
+section{
+	background-color: #4463b3;
+	height: 2000px
+
+}
+#principal{
+	height: 2200px;
+}
+#index{
+	height: 1600px
+}
+#titulo h1{
+	-webkit-animation-name:girar;
+	-webkit-animation-duration:3s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+    font-size:  50px; 
+	font-family: 'Antonio', sans-serif;
+	text-align: right;
+    color: #fff;
+    position: relative; 
+    padding: 0px;
+ 
+}
+#nombre{
+    font-size:  50px; 	
+	font-family: 'Antonio', sans-serif;    
+    color: #fff;	
+	text-align: center;
+    position: relative;
+    padding: 0px;        
+}
+h2{
+	
+	text-align: center;
+}
+#imagen img{
+  width: 800px;
+  height: 400px;
+  float: center;
+  margin-bottom: 50px;
+}
+#parrafo p{
+    padding: 20px;
+}
+#subtitulo0 h2{
+	font-size: 40px;
+	text-align: center;
+}
+#blockchain img{
+    float: right;
+	width: 450px;
+	height:400px;
+	padding: 20px;
+	margin-top: 40px;
+}
+#parrafo0 p{
+	margin-top: 20px;
+	height: 400px;
+	width: 400px;
+	float: left;
+	padding: 20px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+#subtitulo1 h2{
+	margin-top: 600px;
+
+}
+#bloques{
+    margin-right: 15px;
+	margin-left:  15px;
+	padding: 20px;	
+}
+#parrafo1 p{
+	margin-right: 15px;
+	margin-left:  15px;
+	padding: 20px;
+
+
+}
+footer{
+	background-color: black;
+	height: 100px;
+	margin-top: 5px;
+	border-radius: 15px; 
+}
+#experiencia1{
+	font-family: 'Antonio', sans-serif;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+ #vi{
+	height: 900px;
+}
+#btn_control{
+	height: 650px;
+	background-color: #000000;
+	border-radius: 0 60px;
+}
+#btn_control video{
+	
+	width:910px;
+	margin-right: auto;
+	margin-left: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 0 60px;
+
+}
+#vide video{
+		width:910px;
+	margin-right: auto;
+	margin-left: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 0 60px;
+}
+#titulo h2{
+	font-family: 'Antonio', sans-serif;
+    text-align: center;
+   -webkit-animation-name:titulo;
+   -webkit-animation-duration:3s;
+   -webkit-animation-iteration-count:0s;
+   -webkit-animation-direction:0px;
+   position: relative;
+   text-align: center;
+   color: #fff;
+   padding: 0px;
+   font-size: 50px;
+}
+#RE{
+	height: 800px;
+	background-image: url(imagenes/block.jpg);
+	margin-top: 10px;
+	width: 960px;
+    height:480px;
+}
+#datos p{
+	color: black;
+	margin-left: 320px;
+	margin-top: 10px;
+	font-family: 'Antonio', sans-serif;
+	font-size: 30px;
+	padding: 20px;
+}
+
+input{
+	color:black;
+    font-weight: bold;
+	font-size: 30px;
+	margin-left: 300px;
+	text-decoration: none;
+	display:inherit;
+    margin-top: 10px;
+    float: left;
+    border:#ffffff 2px solid;
+    padding: 0 4px;
+    position: center;
+    display: block;
+}
+#Link  {
+		font-family: 'Antonio', sans-serif;
+		color: #ffffff;	
+        margin-left: 250px;
+}
+#aprendizaje {
+	   font-family: 'Antonio', sans-serif;
+       color: #ffffff;
+       margin-left: 250px;
+       margin-top: 20px;
+}
+#aprendizaje p{
+	 font-family: 'Antonio', sans-serif;
+	 color: #ffffff;
+	 margin-bottom: 30px;
+	 margin-left: 70px;
+	 font-size: 40px;
+}
+#link{
+	   font-family: 'Antonio', sans-serif;
+       color: #ffffff;
+       margin-left: 250px;
+       margin-top: 20px;
+}
+#Ultimo p{
+    color: #ffffff;
+    font-family: 'Antonio', sans-serif;
+    text-align: center;
+}
+.tt{
+	width: 300px;
+	padding: 1px;
+    float: left;
+    height: 200px;
+}
+.t{
+	padding: 1px;
+	width: 350px;
+	height: 300px;
+	float: right;
+}
+.qq{
+  float: left;
+  width: 300px;
+}
+.ww{
+   width: 200px;
+   padding: 1px;
+   float: center;
+}
+.o{
+	float:right;
+	width: 230px;
+	float: center;
+}
+.c{
+	width: 570px;
+	float: right;
+}
+#bloquesues{
+	display: block;
+}
+#titulo{
+	position: center;
+}
+section{
+	height: 900px;
+}
+#btn_control ul {
+   text-align: center;
+   display: block;
+}
+#control{
+	height: 400px;
+
+}
+#avanzado{
+	height: 650px;
+	border-radius: 0 60px;
+	margin-top: 10px;
+}
+.criptocompare{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #c2bcae;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+h3, h4, h5 {
+text-align: center;
+}
+
+p{
+padding: 10px
+}
+
+.crip{
+background-color:rgb(90, 74, 235);
+margin-bottom: 10px;
+font-size: 80%;
+width: 33%;
+border-radius: 20px;
+}
+
+.imagenes-cripto{
+margin: 5px;
+border-radius: 20px;
+
+}
+#tituloo{
+animation-name: agrandar;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-direction: alternate;
+background-color: #e0a10d;
+border-radius: 0 20px;
+}
+@keyframes agrandar{
+   from{
+     transform: scale(1.0);
+   }
+   to{
+   	 transform: scale(1.1);
+   }
+	}
+
+ img{
+display: block;
+border: 0;
+width: 100%;
+height: auto;
+border-radius: 20px;
+
+} 
+.cripto_que{
+list-style: none
+}
+.imagenes-cripto:hover{
+animation-name: aparecer;
+animation-iteration-count: infinite;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-direction: alternate;
+}
+@keyframes aparecer{
+   from{
+     opacity: 1;
+   }
+   to{
+   	 opacity: 0;
+   }
+	}
+#flexx{
+	height: 2800px;
+	background-color: #c2bcae;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+#inf{
+	text-align: left;
+	font-size: 30px;
+	font-family: 'Antonio', sans-serif;
+	padding: 10px;
+}
+#svgg{
+	display: block;
+}
+#dibujo1{
+	width: 700px;
+}
+#caja{
+    margin: auto;
+	padding: 20px;
+	text-align: left;
+	width: 60%;
+}
+#contaner{
+	
+}
+#id{
+	background-color: #315ea3;
+	width: 500px;
+	border:#315ea3;
+	margin: auto;
+	padding: 10px;
+	font-size: 25px;
+	height: 20px;
+	color: black;
+	background-position: center;
+}
+#aprendido{
+	margin-top: 5px;
+	background-color: #315ea3;
+	width: 516px;
+	height: 100px;
+	border:#315ea3;
+	font-size: 25px;
+	margin-top: 10px;
+	background-position: center;
+}
+#fecha{
+	background-color: #315ea3;
+	width: 513px;
+	border:  #315ea3;
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	color:#878787;
+	background-position: center;
+}
+#ff{ 
+	background-color: #315ea3;
+	float: left;
+	border:#315ea3;
+	width: 501px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 25px;
+	color:#878787;;
+}
+#bot{
+	text-decoration-line: none;
+	padding: 8px;
+	border-radius: 10px;
+	background-color: white;
+	margin-left: 420px;
+	margin-bottom: 10px;
+	color: black;
+	background-position: ;
+}
+#borr{
+	background-color: white;
+	font-size: 30px;
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+#listar ul {
+    list-style-type: none;
+    border: hidden;
+    background-color: ;
+}
+#Nivel{
+	width: 250px;
+	font-size: 20px;
+	float: right;
+	padding: 5px;
+}
+#guardar a{
+	text-decoration: none;
+	color: black;
+}
+#guardar{
+	text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 5px;
+}
+#eliminar a{
+	color: black;
+	text-decoration: none;
+}
+#eliminar{
+	margin: auto;
+	text-align: center;
+	background-color: white;
+	width: 250px;
+}
+#mostrar_datos{
+	background-color:#315ea3;
+	clear: left;
+	width: 524px;
+	height: 250px;
+	margin-top:5px;
+}
+#delet{
+	margin-top: 100px;
+	color: black;
+	border-radius: 10px;
+	background-color: white;
+	text-decoration-line: none;
+	padding: 10px;
+	margin-left: 430px;
+}
+#ti{
+	text-align: center;
+	padding: 30px;
+	font-size: 50px;
+}
+#sub{
+	border-bottom:ridge; black;
+}
+#notas{
+	background-color:#5488c4;
+	padding: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 500px;
+	border-radius: 30px 0px;
+}
+#apunte li{
+	list-style-type: none;
+}
+@media all and (min-width: 599px) and (max-width: 1023px){
+header, section, footer{
+        width: 580px;
+	}
+	#logo1 img{
+	width: 150px;
+	height: 100px;
+}
+
+#principal{
+	height: 2800px;
+}
+#titulo h1{
+	-webkit-animation-name:girar;
+	-webkit-animation-duration:0s;
+	-webkit-animation-iteration-count:;
+	-webkit-animation-direction:alternate;
+    font-size:  40px; 
+	text-align: center;
+	position: center;
+}
+#imagen img{
+  width: 500px;
+  height: 300px;
+}
+#parrafo p{
+    margin-top: 10px;
+
+}
+#subtitulo0 h2{
+	font-size: 40px;
+	text-align: center;
+}
+#parrafo0 p{
+	margin-top: 5px;
+	width: 500px;
+	padding: 10px;
+}
+#subtitulo1 h2{
+	margin-top: 5px;
+	text-align: center;
+    clear: left;
+    float: center;
+}
+#blockchain img{
+    float: left;
+	width: 450px;
+	height:400px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+}
+#parrafo1 p{
+	margin-right: 4px;
+	margin-left:  4px;
+	padding: 0 10px;
+	margin-bottom: 10px;
+    clear: left;
+}
+#titulo h2{
+   text-align: center;
+   padding: 10px;
+}
+#aprendizaje {
+       margin-left: 100px;
+}
+#Link  {
+        margin-left: 100px;
+}
+#link{
+       margin-left: 100px;
+}
+ #vi{
+	height: 900px;
+}
+#video video{
+	height: 600px;
+	width: 100%;
+   	float: center;
+}#vide video{
+	height: 600px;
+	width: 90%;
+   	float: center;
+}
+
+#mensaje  li{
+	text-decoration: none;
+	display:inherit;
+    margin-top: 10px;
+    float: left;
+    padding: 0 4px;
+    position: center;
+       margin-left: 45px;
+}
+#RE{
+	width: 580px;
+	height: 480px;
+}
+#datos p{
+	text-align:left;
+	margin-left: 50px;
+}
+input{
+	font-size: 20px;
+	margin-left: 150px;
+}
+.tt{
+	float: none;
+    }
+.t{
+	width: 280px;
+	height: 150px;
+	float: right;
+}
+.qq{
+  float: left;
+  width: 300px;
+}
+.ww{
+   width: 200px;
+   padding: 1px;
+   float: center;
+}
+.o{
+	float:right;
+	width: 200px;
+	float: center;
+}
+.c{
+	width: 300px;
+	float: right;
+}
+#bloquesues{
+	display: block;
+}
+#titulo{
+	position: center;
+}
+section{
+	height: 1000px;
+}
+#flexx{
+	height: 4150px;
+}
+header{
+
+	height: 120px;
+
+}
+#logo1 img{
+	width: 120px;
+	height: 120px;
+    align-self: center;
+    border-radius: 5px;
+	float: left;
+}
+#btn_control video{
+	
+	width:500px;
+	margin-right: ;
+	margin-left: ;
+    display: block;
+    padding: 0px;
+    border-radius: 0;
+}
+#btn_control ul li a{
+	padding: 0px 0px;
+    font-weight: bold;
+}
+header{
+	height: 170px;
+}
+#dibujo1{
+	width: 600px;
+}
+footer{
+	width: 650px;
+}
+#id{
+	width: 384px;
+	margin: auto;
+}
+#aprendido{
+	width: 400px;
+}
+#fecha{
+	width: 396px;
+	margin: auto;
+}
+#ff{ 
+	width: 385px;
+}
+#mostrar_datos{
+	width: 405px;
+}
+#bot{
+	margin-left: 300px;
+}
+#delet{
+	margin-top: 100px;
+	margin-left: 30px;
+}
+}
+@media all and (max-width: 599px){
+
+header, section, footer{
+		width: 400px;
+	}
+header{
+		height: 500px;
+	}
+#logo1 img{
+	width: 400px;
+	height: 200px;
+	float: center;
+}
+#Menu ul li{
+	display: block;
+}
+#Menu ul li a{
+	display: inline-table;
+	padding:30px;
+	margin-left: 80px;
+}
+#tituloo h1{
+    clear: right;
+    -webkit-animation-name:girar;
+	-webkit-animation-duration:0s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:alternate;
+    font-size:  40px; 
+	text-align: center;
+ 
+}
+#nombre{
+    font-size:  50px; 	
+	font-family: 'Antonio', sans-serif;    
+    color: #fff;	
+	text-align:right;
+    position: relative;
+    padding: 0px;        
+}
+#Menu ul li a:hover{
+	height: 40px;
+	width:200px;
+	position: left;
+}
+#nombre{
+    font-size:  50px; 	
+   	text-align: center;
+    position: center;
+    padding: 10px;        
+}
+#imagen img{
+  width: 400px;
+
+  float: left;
+  margin-bottom: 50px;
+}
+#parrafo p{
+    padding: 20px;
+    clear: left;
+}
+#parrafo0 p{
+	height: 400px;
+	width: 350px;
+	float: center;
+	clear: center;
+}
+#blockchain img{
+    float: center;
+	width: 398px;
+	height:200px;
+	padding: 1px;
+	margin-top: 0px;
+    margin-top: 200px;
+	clear: left;
+	margin-bottom: 20px;
+}
+#parrafo1 p{
+	margin-right: 15px;
+	margin-left:  15px;
+	padding: 20px;
+}
+#principal{
+	height: 3300px;
+}
+#titulo h2{
+   text-align: left;
+}
+#aprendizaje {
+       margin-left: 30px;
+       margin-top: 20px;
+}
+#aprendizaje p{
+	 margin-bottom: 30px;
+	 margin-right: 2px;
+	 font-size: 40px;
+}
+#link{
+       margin-left: 20px;
+       margin-top: 20px;
+}
+ #vi{
+	height: 1000px;
+}
+#video{
+	height: 800px;
+}
+#video video{
+	height: 600px;
+	width: 100%;
+	margin-top: 0px;
+	float: none;
+}
+#Ultimo p{
+    text-align: center;
+}
+#RE{
+	width: 400px;
+	height: 500px;
+}
+#mensaje  li{
+	margin-left:20px;
+    float: left;
+}
+#mensaje  li{
+	margin-left: 2px;
+}
+#mensaje a{
+	text-align: right;
+}
+#datos p{
+	margin-left: 20px;
+}
+input{
+	font-size: 20px;
+	margin-left: 100px;
+}
+.o{
+	width: 350px;
+	float: center;
+}
+.c{
+	width:350px;
+	float: right;
+}
+.qq{
+  float: right;
+  width: 350px;
+}
+.ww{
+   width: 350px;
+   padding: 0px;
+   float: right;
+}
+.tt{
+	float: right;
+	width: 350px;
+    }
+section{
+    height: 1800px;
+}
+header{
+	height: 850px;
+}
+#flexx{
+	height: 6050px;
+}
+.crip{
+margin-bottom: 10px;
+margin-right: auto;
+margin-left: auto;
+font-size: 90%;
+width: 45%;
+
+}
+#flexx{
+	height: 6400px;
+	border-radius: 20px;
+}
+#Menu ul li a{
+	float: center;
+    padding: 40px;
+}
+#libro{
+	height: 1900px;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+#btn_control video{
+	
+	width:350px;
+	margin-right: ;
+	margin-left: ;
+    display: block;
+    padding: 0px;
+    border-radius: 0;
+
+}
+#btn_control ul li a{
+	padding: 0px 0px;
+    font-weight: bold;
+}
+#avanzado{
+	height: 700px;
+}
+#vide video{
+		width:380px;
+	margin-right: auto;
+	margin-left: auto;
+    display: block;
+    padding: 5px;
+    border-radius: 0 60px;
+}
+#vidd{
+	height: 550px;
+}
+header{
+	height: 1160px;
+}
+#Menu{
+	padding: 0px;
+}
+#Menu ul li a:hover{
+	background-color: #116161;
+	border-radius: 5px;
+}
+#svgg svg{
+	width: 500px;
+	margin-top: -160px;
+}
+svg{
+	margin: 500px auto;
+	margin-top: 1px;
+}
+#tituloo{
+	margin-bottom: 1px;
+}
+#id{
+	width: 384px;
+	margin: auto;
+}
+#aprendido{
+	width: 400px;
+}
+#fecha{
+	width: 396px;
+	margin: auto;
+}
+#ff{ 
+	width: 385px;
+}
+

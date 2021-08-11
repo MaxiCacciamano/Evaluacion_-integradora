@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>API, web storage</title>
+	<link rel="stylesheet" type="text/css" href="Disenos.css">
+	 <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+     </style>
+     <style type="text/css">
+     	header{
+     		margin-bottom: 10px;
+     		margin-top: 10px;
+     	}
+     	#web{
+     		border-radius: 0 20px;
+            height: 1150px;
+     	}
+        #te{
+            text-align: center;
+            font-size: 60px;
+            margin-top: 1px;
+        }
+        h2{
+        }
+        #modo{
+            text-align: center;
+            font-size: 35px;
+            /*background-color: #315ea3;
+            border:ridge; black;*/
+            border-bottom:ridge; black;
+
+        }
+        img{
+            height: 200px;
+        }
+        @media all and (min-width: 599px) and (max-width: 1023px){
+            #web{
+            height: 1200px;
+        }
+        }
+
+     </style>
+
+</head>
+<body>
+<header>
+  	<div id="logo1">
+  		<img src="imagenes/BITCOIN.jpg">
+  	</div>
+        <nav id="Menu">
+          <ul>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="video.html">Video</a></li>
+         <li><a href="Registrar.html">Mas informacion</a></li>
+         <li><a href="Librerias.html">Criptomonedas</a></li>
+         <li><a href="videoavanzado.html">Video avanzado</a></li>
+         <li><a href="moduloflex.html">Historias</a></li>
+         <li><a href="svg.html">Burbuja</a></li>
+         <li><a href="webstorage.html">Block de notas</a></li>
+         <li><a href="webstoragesectionstorage.html">Recordatorio</a></li>
+         <li><a></a><li>
+     </ul>
+    </nav>
+  </header>
+  <section id="web">
+    <div id="caja">
+         <img src="imagenes/task.svg">
+    <article id="tareas">
+         <h1 id="te">Block de notas</h1>
+         <p id="modo">Anote lo mas importante del curso</p>
+         <div id="contaner">
+  		<form>
+            <input type="number" id="id" placeholder="Codigo del curso" >
+            <textarea type="textarea" id="aprendido" placeholder="Como describes lo aprendido en clase"></textarea>
+            <input type="date" id="fecha" placeholder="Fecha">
+            <p id="ff"><a>Nivel de aprendizaje
+            <select id="Nivel">
+                <option>Muy urgente</option>
+                <option>Urgente</option>
+                <option>Poco urgente</option>
+            </select></a></p>
+            <p ><a id="bot" href="##" onclick="grabar()">Guardar</a></p>
+            </form>
+            </div>
+        <div id="mostrar_datos">
+            
+            <p id="caja1"><a id="delet" href="##" onclick="borrar()">Borrar</a></p>
+        </div>
+    </article>
+    </div>
+  </section>
+  <footer>
+  	<div id="Ultimo">
+  	<p>Bitcoin para principiantes</p>
+  	<p>Derechos recervados</p>
+  	</div>
+  </footer>
+  <script type="text/javascript" src="js/localsection.js"></script>
+</body>
+</html>

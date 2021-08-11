@@ -1,0 +1,49 @@
+section{
+	background-color: white;
+}
+#svgg{
+	height: 300px;
+	width: 700px;
+	margin: auto;
+    float: center;
+    border-radius: 10px 0 10px;
+}
+#mano{
+	animation: mano ease-in-out 2s infinite;
+}
+@keyframes mano{
+	0%{
+
+		transform: line(2400px,0);
+		opacity: 0;
+	}
+	10%{
+		transform: translate(2100px,0);
+		opacity: 1;
+	}
+}
+#lienzotextura{
+	background-color:white;
+	float: left;
+}
+#dibujo1{
+	background-color: #000000;
+	float: left;
+	margin: auto;
+	padding: 10px;
+}
+#dibujo{
+	background-color: #000000;
+	float: center;
+	margin: auto;
+	padding: 10px;
+}
+#texto{
+    float: left;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+}
+#svg{
+	background-color: black;
+}

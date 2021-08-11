@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Section storage</title>
+	<link rel="stylesheet" type="text/css" href="Disenos.css">
+	 <style>
+        @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+     </style>
+          <style type="text/css">
+     	header{
+     		margin-bottom: 10px;
+     		margin-top: 10px;
+     	}
+     	section{
+     		border-radius: 0 20px;
+            height: 1000px;
+     	}
+        #te{
+            text-align: center;
+            font-size: 60px;
+            margin-top: 1px;
+        }
+        h2{
+        }
+        #modo{
+            text-align: center;
+            font-size: 35px;
+            /*background-color: #315ea3;
+            border:ridge; black;*/
+            border-bottom:ridge; black;
+
+        }
+        img{
+            height: 200px;
+        }
+        #guardar{
+        	text-decoration: none;
+        	border-radius: 10px;
+        	padding: 10px;
+        	margin-top: 500px;
+        }
+        #borrar{
+        	background-color: white;
+        	text-decoration: none;
+        	border-radius: 10px;
+        	padding: 10px;
+        	float: center;
+        	margin-top: 500px;
+        }
+
+
+     </style>
+</head>
+<body>
+<header>
+  	<div id="logo1">
+  		<img src="imagenes/BITCOIN.jpg">
+  	</div>
+        <nav id="Menu">
+       <ul>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="video.html">Video</a></li>
+         <li><a href="Registrar.html">Mas informacion</a></li>
+         <li><a href="Librerias.html">Criptomonedas</a></li>
+         <li><a href="videoavanzado.html">Video avanzado</a></li>
+         <li><a href="moduloflex.html">Historias</a></li>
+         <li><a href="svg.html">Burbuja</a></li>
+         <li><a href="webstorage.html">Block de notas</a></li>
+         <li><a href="webstoragesectionstorage.html">Recordatorio</a></li>
+         <li><a></a><li>
+     </ul>
+    </nav>
+  </header>
+  <section>
+  	<h1 id="ti">Recordatorios</h1>
+  	<h2 id="sub">Anota lo mas importante del curso</h2>
+  	<div id="notas" contenteditable>
+  		<ul id="apunte">
+  			<li>Escribe aqui...</li>
+  		</ul>
+  	</div>
+  	  	<p><a id="guardar" href="##" onclick="enviar()">Guardar</a></p>
+  		<p><a id="borrar" href="##" onclick="borrar()">Borrar</a></p>
+  </section>
+    <footer>
+  	<div id="Ultimo">
+  	<p>Bitcoin para principiantes</p>
+  	<p>Derechos recervados</p>
+  	</div>
+  </footer>
+</body>
+<script type="text/javascript" src="js/sectionstorage.js"></script>
+</html>
